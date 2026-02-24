@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Purple Player",
+  "version": "1.0.0",
+  "description": "Purple Player als Chrome Extension Popup",
+  "action": {
+    "default_title": "Purple Player",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
